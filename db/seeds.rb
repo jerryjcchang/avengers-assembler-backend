@@ -8,6 +8,8 @@
 Category.find_or_create_by(team: "avenger")
 Category.find_or_create_by(team: "villain")
 
+# heroes
+
 Unit.find_or_create_by(name: "Captain America",
                     points: 3,
                     bio: "As Captain America, Steve Rogers carries a nearly indestructible shield fashioned from the rare Wakandan metal known as vibranium. Designed and crafted by genius inventor Howard Stark during World War II, the shield is a perfectly balanced instrument capable of withstanding intense stress and damage, yet also able to be thrown as an offensive weapon that rebounds back to its owner. Rogers maintains the shield as an almost constant companion after it was recovered from the wreckage of the Red Skull’s airplane, as it has become a symbol of strength to all those who recognize Captain America as the country’s defender.
@@ -116,3 +118,65 @@ Unit.find_or_create_by(name: "Wong",
                     category_id: 1,
                     img_path: "wong"
                     )
+
+# enemies
+
+Unit.find_or_create_by(name: "Thanos",
+                       points: 7,
+                       category_id: 2,
+                       img_path: "thanos")
+
+Unit.find_or_create_by(name: "Red Skull",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "red-skull")
+
+Unit.find_or_create_by(name: "Hela",
+                       points: 4,
+                       category_id: 2,
+                       img_path: "hela")
+
+Unit.find_or_create_by(name: "Malekith",
+                       points: 2,
+                       category_id: 2,
+                       img_path: "malekith")
+
+Unit.find_or_create_by(name: "Thanos",
+                       points: 7,
+                       category_id: 2,
+                       img_path: "thanos")
+
+Unit.find_or_create_by(name: "Killian",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "killian")
+
+Unit.find_or_create_by(name: "Whiplash",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "whiplash")
+
+Unit.find_or_create_by(name: "Abomination",
+                       points: 4,
+                       category_id: 2,
+                       img_path: "abomination")
+
+Unit.find_or_create_by(name: "Yellow Jacket",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "yellow-jacket")
+
+Unit.find_or_create_by(name: "Ultron",
+                       points: 4,
+                       category_id: 2,
+                       img_path: "ultron")
+
+Unit.find_or_create_by(name: "Ronan",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "ronan")
+
+Unit.find_or_create_by(name: "Kaecilius",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "kaecilius")
