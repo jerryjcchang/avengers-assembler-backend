@@ -180,3 +180,9 @@ Unit.find_or_create_by(name: "Kaecilius",
                        points: 3,
                        category_id: 2,
                        img_path: "kaecilius")
+
+Unit.find_or_create_by(name: "Killmonger",
+                       points: 3,
+                       category_id: 2,
+                       img_path: "killmonger")
+
